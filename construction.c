@@ -13,7 +13,7 @@ struct Pokemon * new_pokemon(int h, int a, int d, int sa, int sd, int spd, char 
     np->defense = d;
     np->sp_atk = sa;
     np->sp_def = sd;
-    np->speed = sd;
+    np->speed = spd;
     return np;
 }
 
